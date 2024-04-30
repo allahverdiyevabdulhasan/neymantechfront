@@ -1,0 +1,15 @@
+ @media (max-width: 540px) {
+   .top-btn {
+     right: 2rem !important;
+
+   }
+ }
+
+ .top-btn--icon{
+  color: #0023CA;
+ }
+
+.top-btn{
+  border: 1px solid #0023CA;
+  background-color: white;
+}

@@ -1,0 +1,229 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Poppins", sans-serif;
+
+}
+p{
+  margin-bottom: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+:root{
+  /* colors */
+  --dark: #111111;
+  --white: #ffffff;
+  --medium-blue: #0023CA;
+  --cetacean-blue: #140342;
+  --majorelle-blue: #6440FB;
+  --purple-navy: #4F547B;
+  --bright-gray: #E2E4EB;
+  --ghost-white: #F5F7FE;
+  --color-yellow-gamboge: #E59819;
+  --magnolia: #F4F1FE;
+  --anti-flash-white: #EEF2F6;
+  --medium-blue: #0023CA;
+  --pumpkin: #f97316;
+  --spanish-gray: #9B9B9B;
+  --cultured: #F5F5F5;
+  --dark-liver: #4D4D4D;
+
+  
+}
+/* GAP */
+
+.text-black{
+  color: var(--dark);
+}
+
+.gap-1{
+  gap: 1px;
+}
+
+.gap-2{
+  gap: 2px;
+}
+
+.gap-3{
+  gap: 3px;
+}
+
+.gap-4{
+  gap: 4px;
+}
+
+.gap-4{
+  gap: 4px;
+}
+
+.gap-5{
+  gap: 5px;
+}
+
+.gap-6{
+  gap: 6px;
+}
+
+.gap-10{
+  gap: 10px;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.gap-30{
+  gap: 30px;
+}
+
+.gap-40{
+  gap: 40px;
+}
+
+.gap-64{
+  gap: 64px;
+}
+
+/* FONT SIZE */
+.fs-14{
+  font-size: 14px;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
+.fs-19{
+  font-size: 19px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-21{
+  font-size: 21px;
+}
+
+.fs-22{
+  font-size: 22px;
+}
+
+.fs-23{
+  font-size: 23px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.fs-27{
+  font-size: 27px;
+}
+
+
+.fs-30{
+  font-size: 30px;
+}
+
+.fs-36{
+  font-size: 36px;
+}
+
+.fs-35{
+  font-size: 35px;
+}
+
+.fs-40{
+  font-size: 40px;
+}
+
+.fs-48{
+  font-size: 48px;
+}
+
+.fs-96{
+  font-size: 96px;
+}
+
+/* WEIGHT */
+.w-60{
+  width: 60px;
+}
+.w-555{
+  width: 555px;
+}
+
+/* HEIGHT */
+
+.h-60{
+  height: 60px;
+}
+
+.h-100{
+  height: 100px;
+}
+
+.h-150{
+  height: 150px;
+}
+
+/* PADDING */
+
+.p-10{
+  padding: 10px;
+}
+
+.p-15{
+  padding: 15px;
+}
+
+.p-30{
+  padding: 30px;
+}
+
+.pt-20{
+  padding-top: 20px;
+}
+
+.pt-50{
+  padding-top: 50px;
+}
+
+/* scrool */
+/* Skroll barın genişliyini və rəngini təyin edir */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Skroll barın sürtülən hissəsinin (thumb) stilini təyin edir */
+::-webkit-scrollbar-thumb {
+  background: #0004ff; 
+  border-radius: 10px;
+}
+
+/* Skroll barın sürtülən hissəsinə hover olunduqda */
+::-webkit-scrollbar-thumb:hover {
+  background: #0004ff; 
+}
+
+/* Skroll barın track (izləmə zolağı) hissəsinin stilini təyin edir */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+  border-radius: 10px;
+}
+
+/* İstənilən özəl kart üçün skroll barın tətbiq edilməsi */
+.card-with-scroll {
+  overflow-y: auto;
+  height: 150px; /* Yüksəklik müəyyən bir dəyər olmalıdır ki, skroll bar aktivləşsin */
+}

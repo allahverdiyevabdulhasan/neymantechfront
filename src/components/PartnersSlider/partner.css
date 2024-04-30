@@ -1,0 +1,8 @@
+.partners .partner-img img{
+    object-fit: contain;
+    /* filter: grayscale(70%); */
+}
+
+.partners .partner-img img:hover{
+    filter: grayscale(0);
+}

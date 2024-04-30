@@ -1,0 +1,62 @@
+.portfolio_detail .portfolio_detail_head a{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+}
+
+
+.portfolio_detail .portfolio_detail_head p{
+    color: var(--medium-blue);
+    font-weight: 500;
+}
+
+.portfolio_detail .dblog-main-img{
+    border-radius: 4px;
+    height: 700px;
+    object-fit: contain;
+}
+
+@media (max-width:1025px) {
+    .portfolio_detail .dblog-main-img{
+        border-radius: 4px;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+.portfolio_detail .dblog-img{
+    height: 250px;
+    width: 300px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width:540px) {
+    .portfolio_detail .dblog-img{
+        width: 100%;
+    }
+}
+
+.custom-modal{
+    max-width: 60%;
+}
+
+@media (max-width:1025px) {
+    .custom-modal{
+        max-width: 85%;
+    }
+}
+
+@media (max-width:540px) {
+    .custom-modal{
+        max-width: 100%;
+    }
+}
+
+.close-btn{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000; /* veya istediğiniz renk */
+}

@@ -1,0 +1,64 @@
+.testimonials .comment-text p {
+    height: 100px;
+    overflow: auto;
+}
+/* Skroll barın genişliyini və rəngini təyin edir */
+.testimonials .comment-text p::-webkit-scrollbar {
+    width: 1px;
+    height: 100%;
+}
+
+/* Skroll barın sürtülən hissəsinin (thumb) stilini təyin edir */
+.testimonials .comment-text p::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px;
+}
+
+/* Skroll barın sürtülən hissəsinə hover olunduqda */
+.testimonials .comment-text p::-webkit-scrollbar-thumb:hover {
+    background: #001aff; 
+}
+
+/* Skroll barın track (izləmə zolağı) hissəsinin stilini təyin edir */
+.testimonials .comment-text p::-webkit-scrollbar-track {
+    background: #ffffff; 
+    border-radius: 5px;
+}
+
+/* İstənilən özəl kart üçün skroll barın tətbiq edilməsi */
+.card-with-scroll {
+    height: 150px; /* Yüksəklik müəyyən bir dəyər olmalıdır ki, skroll bar aktivləşsin */
+}
+
+.testimonials .comment-card {
+    /* background-color: #DDECFD; */
+    border-radius: 8px;
+    padding: 25px;
+    transition: all .5s;
+    height: 300px;
+    border: 1px solid #dedcdc;
+    cursor: pointer;
+}
+
+.comment-text{
+    height: 160px;
+}
+
+/* .testimonials .comment-card .comment-card-end {
+    padding-top: 30px;
+} */
+
+.testimonials .comment-card .comment-card-end img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonials .comment-card:hover {
+    background-color: var(--medium-blue);
+    color: var(--white);
+}
+
+.testimonials .comment-card .comment-card-icon {
+    font-size: 30px;
+}

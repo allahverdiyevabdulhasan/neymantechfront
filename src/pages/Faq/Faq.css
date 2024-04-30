@@ -1,0 +1,22 @@
+.faq .answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(1,0,1,0);
+}
+
+.faq .answer.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.9s cubic-bezier(1,0,1,0);
+
+}
+
+.faq .wrapper span{
+    color: var(--medium-blue);
+}
+
+@media (max-width:540px) {
+    .faq .faq-head h4{
+        font-size: 20px;
+    }
+}
