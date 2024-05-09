@@ -1,0 +1,22 @@
+.error-page a{
+    text-decoration: none;
+    color: #0023CA;
+    padding: 10px 25px;
+    border: 1px solid #0023CA;
+    transition: all .5s;
+    border-radius: 12px;
+    box-shadow: rgba(15, 37, 182, 0.24) 0px 3px 8px;
+}
+
+.error-page a:hover{
+    background-color: #0023CA;
+    color: white;
+    border: 1px solid #0023CA;
+}
+
+.error-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
