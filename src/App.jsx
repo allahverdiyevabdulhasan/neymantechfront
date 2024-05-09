@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route,Navigate } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
@@ -12,6 +12,7 @@ import Faq from "./pages/Faq/Faq"
 import ServicesDetail from "./pages/ServicesDetail/servicesDetail"
 import PortfolioDetail from "./pages/PortfolioDetail/portfolioDetail"
 import GoToTop from "./components/GoToTop/GoToTop"
+import NotFound from "./pages/404/NotFound"
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
         <Route path="Faq" element={<Faq />} />
         <Route path="/ServicesDetail/:id" element={<ServicesDetail />} />
         <Route path="/PortfolioDetail/:id" element={<PortfolioDetail />} />
+        <Route path="*" element={<Navigate replace to="/404" />}/>
+        <Route path="/404" element={<NotFound/>}/>
       </Routes>
       <GoToTop/>
       <Footer />
