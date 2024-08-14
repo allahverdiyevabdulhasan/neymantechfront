@@ -1,4 +1,4 @@
-export const BASE_URL_EN="https://neymanenterprisesolutions.com/en"
-export const BASE_URL_TR="https://neymanenterprisesolutions.com/tr"
-export const BASE_URL_AZ="https://neymanenterprisesolutions.com/az"
-export const BASE_URL_RU="https://neymanenterprisesolutions.com/ru"
+export const BASE_URL_EN="http://167.172.182.92/en"
+export const BASE_URL_TR="http://167.172.182.92/tr"
+export const BASE_URL_AZ="http://167.172.182.92/az"
+export const BASE_URL_RU="http://167.172.182.92/ru"
