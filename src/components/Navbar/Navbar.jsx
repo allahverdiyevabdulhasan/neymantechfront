@@ -78,10 +78,10 @@ const Navbar = () => {
                   {
                     open && (
                       <div className='nav-drop-language'>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/az"); window.location.reload(); }}>AZ</p>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/en"); window.location.reload(); }}>EN</p>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/tr"); window.location.reload(); }}>TR</p>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/ru"); window.location.reload(); }}>RU</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/az"); window.location.reload(); }}>AZ</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/en"); window.location.reload(); }}>EN</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/tr"); window.location.reload(); }}>TR</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/ru"); window.location.reload(); }}>RU</p>
                       </div>
   
                     )
@@ -98,10 +98,10 @@ const Navbar = () => {
                   {
                     open && (
                       <div className='nav-drop-language'>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/az"); window.location.reload(); }}>AZ</p>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/en"); window.location.reload(); }}>EN</p>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/tr"); window.location.reload(); }}>TR</p>
-                        <p onClick={() => { localStorage.setItem('lang', "http://neymantech.shop/ru"); window.location.reload(); }}>RU</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/az"); window.location.reload(); }}>AZ</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/en"); window.location.reload(); }}>EN</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/tr"); window.location.reload(); }}>TR</p>
+                        <p onClick={() => { localStorage.setItem('lang', "https://neymantech.shop/ru"); window.location.reload(); }}>RU</p>
                       </div>
   
                     )
