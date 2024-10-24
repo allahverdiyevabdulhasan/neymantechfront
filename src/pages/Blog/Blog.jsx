@@ -91,7 +91,7 @@ const Blog = () => {
 
                   <span>{post.show_date}</span>
                 </div>
-                <h4 className='fs-24'>{post.title}</h4>
+                <h4 className='fs-18'>{post.title}</h4>
                 <NavLink key={post.id} to={`/BlogDetail/${post.id}`}>
                   <p className='read '>{MultiLanguage[lang]["blog"]["3"]} <span><FaArrowRight /></span></p>
                 </NavLink>
